@@ -33,3 +33,19 @@ func swap(arr []int, i, j int) []int {
 	return arr
 
 }
+
+// func missingNumber(nums []int) int {
+
+//     opt := 0
+//     act := nums[0]
+//     for i:= 1; i<= len(nums); i++ {
+//         opt = opt ^ i
+//     }
+//     for i:= 1; i< len(nums); i++ {
+//         act = act ^ nums[i]
+//     }
+
+//     fmt.Println(opt, act)
+//     ans := opt ^ act
+//     return ans
+// }
